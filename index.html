@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Temperature Conversion</title>
+
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>Temperature Conversion</h1>
+            <form id = "conversion-form">
+                <div class="input-group">
+                    <input type = 'number' class = 'form-control' id = 'temp-input' placeholder="Temperature" value = ''>
+                    <span>
+                        <select id = 'input-options'>
+                        <option>℉</option>
+                        <option>℃</option>
+                        </select>  
+                </span>
+                   
+                </div>
+                <div>
+                    <input type = 'submit' class = 'form-control' id = 'convert-input' placeholder="Temperature input" value ='convert'>
+                </div>
+                
+            </form>
+
+
+            <div>
+
+                <input type = 'number' class = 'form-control' id = 'temp-output' placeholder="Temperature output" >
+
+                <span>
+                    <select id = 'output-options' >
+                    <option id = 'faren'>℉</option>
+                    <option id = 'celsius'>℃</option>
+                    </select>  
+                
+                </span>
+             </div>
+        
+        </div>
+
+
+
+    </div>
+    
+</body>
+
+<script src = "app.js"></script>
+</html>
