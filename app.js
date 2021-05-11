@@ -33,7 +33,7 @@ function convertTemp(e){
     
 
     if (Units === '℉'){
-       (tempOutput.value) = Output1;
+       (tempOutput.value) = Output1.toFixed(2);
 
        OutputUnits ='℃'
        tempOutputUnits.value = OutputUnits
@@ -41,7 +41,7 @@ function convertTemp(e){
       
        
 
-    }else{(tempOutput.value) = Output2;
+    }else{(tempOutput.value) = Output2.toFixed(2);
 
         OutputUnits = '℉'
         tempOutputUnits.value = OutputUnits
