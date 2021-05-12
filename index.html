@@ -12,10 +12,10 @@
     <div id="outside-border">
     <div class="main-container">
         <div class="container">
-            <h1>Temperature Conversion</h1>
+            <h1 class = 'heading'>Temperature Conversion</h1>
             <form id = "conversion-form">
                 <div class="input-group">
-                    <input type = 'number' class = 'form-control' id = 'temp-input' placeholder="Temperature input" value = ''>
+                    <input type = 'text' class = 'form-control' id = 'temp-input' placeholder="Temperature input" value = ''>
                     <span class = 'form-control'>
                         <select id = 'input-options'>
                         <option>℉</option>
@@ -30,9 +30,13 @@
    
             </form>
 
+            
+            <div id="loading">
+                <img src = "loading.gif">
+            </div> 
+            
 
             <div>
-
                 <input type = 'number' class = 'form-control' id = 'temp-output' placeholder="Temperature output" disabled >
                 <span>
                     <input type = 'text' class = 'form-control' id = 'output-options' placeholder="units" disabled >
